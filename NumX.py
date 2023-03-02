@@ -7,7 +7,7 @@
 # Вводим число: 3
 # Вводится количество повторений этой цифры: -> 1
 
-N = int (input('Здравствуйте! Введите количество элементов: ')) # AmountOfElem
+N = int (input('Здравствуйте! Введите количество элементов: ')) 
 list_0 = []
 СoincidenceNum = 0
 for i in range(N):
@@ -17,12 +17,3 @@ for i in range(len(list_0)):
     if list_0[i] == X:
         СoincidenceNum +=1
 print(f"Количество совпадений = {СoincidenceNum}")
-
-
-
-
-# result = list()
-# for dict in spisok:
-#     for k in dict:
-#         result.append(dict[k])
-# print(set(result))
